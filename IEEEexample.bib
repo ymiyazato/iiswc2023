@@ -1,0 +1,1658 @@
+
+IEEEexample.bib 
+V1.12 (2007/01/11)
+Copyright (c) 2002-2007 by Michael Shell
+See: http://www.michaelshell.org/
+for current contact information.
+
+This is an example BibTeX database for the official IEEEtran.bst
+BibTeX style file.
+
+Some entries call strings that are defined in the IEEEabrv.bib file.
+Therefore, IEEEabrv.bib should be loaded prior to this file. 
+Usage: 
+
+\bibliographystyle{./IEEEtran}
+\bibliography{./IEEEabrv,./IEEEexample}
+
+
+Support sites:
+http://www.michaelshell.org/tex/ieeetran/
+http://www.ctan.org/tex-archive/macros/latex/contrib/IEEEtran/
+and/or
+http://www.ieee.org/
+
+*************************************************************************
+Legal Notice:
+This code is offered as-is without any warranty either expressed or
+implied; without even the implied warranty of MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE! 
+User assumes all risk.
+In no event shall IEEE or any contributor to this code be liable for
+any damages or losses, including, but not limited to, incidental,
+consequential, or any other damages, resulting from the use or misuse
+of any information contained here.
+
+All comments are the opinions of their respective authors and are not
+necessarily endorsed by the IEEE.
+
+This work is distributed under the LaTeX Project Public License (LPPL)
+( http://www.latex-project.org/ ) version 1.3, and may be freely used,
+distributed and modified. A copy of the LPPL, version 1.3, is included
+in the base LaTeX documentation of all distributions of LaTeX released
+2003/12/01 or later.
+Retain all contribution notices and credits.
+** Modified files should be clearly indicated as such, including  **
+** renaming them and changing author support contact information. **
+
+File list of work: IEEEabrv.bib, IEEEfull.bib, IEEEexample.bib,
+                   IEEEtran.bst, IEEEtranS.bst, IEEEtranSA.bst,
+                   IEEEtranN.bst, IEEEtranSN.bst, IEEEtran_bst_HOWTO.pdf
+*************************************************************************
+
+
+Note that, because the example references were taken from actual IEEE
+publications, these examples do not always contain the full amount
+of information that may be desirable (for use with other BibTeX styles).
+In particular, full names (not abbreviated with initials) should be
+entered whenever possible as some (non-IEEE) bibliography styles use
+full names. IEEEtran.bst will automatically abbreviate when it encounters
+full names.
+ 
+ 
+ 
+ 
+references for the IEEEtran.bst documentation
+IEEEtran homepage
+@electronic{IEEEhowto:IEEEtranpage,
+  author        = "Michael Shell",
+  title         = "{IEEE}tran Homepage",
+  url           = "http://www.michaelshell.org/tex/ieeetran/",
+  year          = "2007"
+}
+
+
+the distribution site for IEEEtran.bst
+@electronic{IEEEexample:shellCTANpage,
+  author        = "Michael Shell",
+  title         = "{IEEE}tran Webpage on {CTAN}",
+  url           = "http://www.ctan.org/tex-archive/macros/latex/contrib/IEEEtran/",
+  year          = "2007"
+}
+
+
+the IEEE website
+sort key is needed for sorting styles
+@electronic{IEEEexample:IEEEwebsite,
+  title         = "The {IEEE} Website",
+  url           = "http://www.ieee.org/",
+  year          = "2007",
+  key           = "IEEE"
+}
+
+
+The BibTeX user's guide.
+The filename could have been put in the URL instead. But, there might
+be other interesting things for the user in the same directory - and
+the filename might change before the directory that contains it.
+@electronic{IEEEexample:bibtexuser,
+  author        = "Oren Patashnik",
+  title         = "{{\BibTeX}}ing",
+  howpublished  = "{btxdoc.pdf}",
+  url           = "http://www.ctan.org/tex-archive/biblio/bibtex/contrib/doc/",
+  month         = feb,
+  year          = "1988"
+}
+
+
+The BibTeX style designer's guide.
+@electronic{IEEEexample:bibtexdesign,
+  author        = "Oren Patashnik",
+  title         = "Designing {{\BibTeX}} Styles",
+  howpublished  = "{btxhak.pdf}",
+  url           = "http://www.ctan.org/tex-archive/biblio/bibtex/contrib/doc/",
+  month         = feb,
+  year          = "1988"
+}
+
+
+A comprehensive BibTeX tutorial.
+@electronic{IEEEexample:tamethebeast,
+  author        = "Nicolas Markey",
+  title         = "Tame the BeaST  ---  The B to X of {{\BibTeX}}",
+  url           = "http://tug.ctan.org/tex-archive/info/bibtex/tamethebeast/",
+  month         = oct,
+  year          = "2005"
+}
+
+
+The BibTeX Tips and FAQ guide.
+@electronic{IEEEexample:bibtexFAQ,
+  author        = "David Hoadley and Michael Shell",
+  title         = "{{\BibTeX}} Tips and {FAQ}",
+  howpublished  = "{btxFAQ.pdf}",
+  url           = "http://www.ctan.org/tex-archive/biblio/bibtex/contrib/doc/",
+  month         = jan,
+  year          = "2007"
+}
+
+
+The TeX FAQ
+@electronic{IEEEexample:texfaq,
+  author        = "Robin Fairbairns",
+  title         = "The {{\TeX}} {FAQ}",
+  url           = "http://www.tex.ac.uk/cgi-bin/texfaq2html/",
+  month         = jan,
+  year          = "2007"
+}
+
+
+A BibTeX Guide via Examples.
+@electronic{IEEEexample:bibtexguide,
+  author        = "Ki-Joo Kim",
+  title         = "A {{\BibTeX}} Guide via Examples",
+  howpublished  = "{bibtex\_guide.pdf}",
+  url           = "http://www.geocities.com/kijoo2000/",
+  month         = apr,
+  year          = "2004"
+}
+
+
+TeX User Group Bibliography Archive
+@electronic{IEEEexample:beebe_archive,
+  author        = "Nelson H. F. Beebe",
+  title         = "{{\TeX}} User Group Bibliography Archive",
+  url           = "http://www.math.utah.edu:8080/pub/tex/bib/index-table.html",
+  month         = aug,
+  year          = "2006"
+}
+
+The natbib.sty package.
+@electronic{ctan:natbib,
+  author        = "Patrick W. Daly",
+  title         = "The natbib.sty package",
+  url           = "http://www.ctan.org/tex-archive/macros/latex/contrib/natbib/",
+  month         = sep,
+  year          = "2006"
+}
+
+The url.sty package.
+@electronic{IEEEexample:urlsty,
+  author        = "Donald Arseneau",
+  title         = "The url.sty Package",
+  url           = "http://www.ctan.org/tex-archive/macros/latex/contrib/misc/",
+  month         = jun,
+  year          = "2005",
+}
+
+
+The hyperref.sty package.
+@electronic{IEEEexample:hyperrefsty,
+  author        = "Sebastian Rahtz and Heiko Oberdiek",
+  title         = "The hyperref.sty Package",
+  url           = "http://www.ctan.org/tex-archive/macros/latex/contrib/hyperref/",
+  month         = nov,
+  year          = "2006",
+}
+
+
+The breakurl.sty package.
+@electronic{IEEEexample:breakurl,
+  author        = "Vilar Camara Neto",
+  title         = "The breakurl.sty Package",
+  url           = "http://www.ctan.org/tex-archive/macros/latex/contrib/breakurl/",
+  month         = aug,
+  year          = "2006",
+}
+
+
+The Babel package.
+@electronic{IEEEexample:babel,
+  author        = "Johannes Braams",
+  title         = "The Babel Package",
+  url           = "http://www.ctan.org/tex-archive/macros/latex/required/babel/",
+  month         = nov,
+  year          = "2005",
+}
+
+
+The multibib package.
+@electronic{IEEEexample:multibibsty,
+  author        = "Thorsten Hansen",
+  title         = "The multibib.sty package",
+  url           = "http://www.ctan.org/tex-archive/macros/latex/contrib/multibib/",
+  month         = jan,
+  year          = "2004"
+}
+
+
+The biblatex package.
+@electronic{IEEEexample:biblatex,
+  author        = "Philipp Lehman",
+  title         = "The biblatex package",
+  url           = "http://www.ctan.org/tex-archive/macros/latex/exptl/biblatex/",
+  month         = jan,
+  year          = "2007"
+}
+
+
+
+The three most common and typical types of references used in
+IEEE publications:
+
+an article in a journal
+Note the use of the IEEE_J_EDL string, defined in the IEEEabrv.bib file,
+for the journal name. IEEEtran.bst defines the BibTeX standard three
+letter month codes per IEEE style.
+From the June 2002 issue of "IEEE Transactions on Electron Devices",
+page 996, reference #16.
+@article{IEEEexample:article_typical,
+  author        = "S. Zhang and C. Zhu and J. K. O. Sin and P. K. T. Mok",
+  title         = "A Novel Ultrathin Elevated Channel Low-temperature 
+                   Poly-{Si} {TFT}",
+  journal       = IEEE_J_EDL,
+  volume        = "20",
+  month         = nov,
+  year          = "1999",
+  pages         = "569-571"
+}
+
+
+journal article using et al.
+The (five) authors are actually: F. Delorme, S. Slempkes, G. Alibert, 
+B. Rose, J. Brandon
+The month (July) was not given here.
+From the September 1998 issue of "IEEE Journal on Selected Areas in
+Communications", page 1257, reference #28.
+@article{IEEEexample:articleetal,
+  author        = "F. Delorme and others",
+  title         = "Butt-jointed {DBR} Laser With 15 {nm} Tunability Grown
+                   in Three {MOVPE} Steps",
+  journal       = "Electron. Lett.",
+  volume        = "31",
+  number        = "15",
+  year          = "1995",
+  pages         = "1244-1245"
+}
+
+
+a paper in a conference proceedings
+"conference" can be used as an alias for "inproceedings"
+From the June 2002 issue of "Journal of Microelectromechanical Systems",
+page 205, reference #16.
+@inproceedings{IEEEexample:conf_typical,
+  author        = "R. K. Gupta and S. D. Senturia",
+  title         = "Pull-in Time Dynamics as a Measure of Absolute Pressure",
+  booktitle     = "Proc. {IEEE} International Workshop on
+                   Microelectromechanical Systems ({MEMS}'97)",
+  address       = "Nagoya, Japan",
+  month         = jan,
+  year          = "1997",
+  pages         = "290-294"
+}
+
+
+a book
+From the May 2002 issue of "IEEE Transactions on Magnetics",
+page 1466, reference #4.
+@book{IEEEexample:book_typical,
+  author        = "B. D. Cullity",
+  title         = "Introduction to Magnetic Materials",
+  publisher     = "Addison-Wesley",
+  address       = "Reading, MA",
+  year          = "1972"
+}
+
+
+
+
+Other examples
+
+journal article with large page numbers, IEEE will divide numbers 5 digits
+or longer into groups of three with small spaces between them. Page ranges
+can be separated via either "-" or "--", IEEEtran.bst will automatically
+convert the separator dash(es) to "--".
+Authors and/or IEEE do not always provide/use the journal number, but it
+was used in this case. IEEEtran.bst can be configured to ignore journal
+numbers if desired.
+From the August 2000 issue of "IEEE Photonics Technology Letters",
+page 1039, reference #11.
+@article{IEEEexample:articlelargepages,
+  author        = "A. Castaldini and A. Cavallini and B. Fraboni
+                   and P. Fernandez and J. Piqueras",
+  title         = "Midgap Traps Related to Compensation Processes in
+                   {CdTe} Alloys",
+  journal       = "Phys. Rev. B.",
+  volume        = "56",
+  number        = "23",
+  year          = "1997",
+  pages         = "14897-14900"
+}
+
+
+journal article with dual months 
+use the BibTeX "#" concatenation operator
+From the March 2002 issue of "IEEE Transactions on Mechatronics",
+page 21, reference #8.
+@article{IEEEexample:articledualmonths,
+  author        = "Y. Okada and K. Dejima and T. Ohishi",
+  title         = "Analysis and Comparison of {PM} Synchronous Motor and
+                   Induction Motor Type Magnetic Bearings",
+  journal       = IEEE_J_IA,
+  volume        = "31",
+  month         = sep # "/" # oct,
+  year          = "1995",
+  pages         = "1047-1053"
+}
+
+
+journal article to be published as a misc entry type
+date information like month and year is optional 
+However, the article form like that below may be a better approach.
+From the May 2002 issue of "IEEE Journal of Selected Areas in 
+Communication", page 725, reference #3.
+@misc{IEEEexample:TBPmisc,
+  author        = "M. Coates and A. Hero and R. Nowak and B. Yu",
+  title         = "Internet Tomography",
+  howpublished  = IEEE_M_SP,
+  month         = may,
+  year          = "2002",
+  note          = "to be published"
+}
+
+
+journal article to be published as an article entry type
+year is required, so if absent, use the year field to hold
+the "submitted for publication" in order to avoid a warning for
+the missing year field.
+From the June 2002 issue of "IEEE Transactions on Information Theory",
+page 1461, reference #21.
+@article{IEEEexample:TBParticle,
+  author        = "N. Kahale and R. Urbanke",
+  title         = "On the Minimum Distance of Parallel and Serially
+                   Concatenated Codes",
+  journal       = IEEE_J_IT,
+  year          = "submitted for publication"
+}
+
+
+
+
+
+book with editor and no author
+From the June 2002 issue of "IEEE Transactions on Information Theory",
+page 1725, reference #1.
+@book{IEEEexample:bookwitheditor,
+  editor        = "J. C. Candy and G. C. Temes",
+  title         = "Oversampling Delta-Sigma Data Converters Theory,
+                   Design and Simulation",
+  publisher     = "{IEEE} Press.",
+  address       = "New York",
+  year          = "1992"
+}
+
+
+book with edition, author and editor
+Note that the standard BibTeX styles do not support book entries with both
+author and editor fields, but IEEEtran.bst does.
+The standard BibTeX way of specifying the edition is to use capitalized
+ordinal words such as "First", "Second", etc. Most .bst files can convert
+up to about "Fifth" into the format needed. IEEEtran.bst can convert up
+to "Tenth" to the "Arabic ordinal" form IEEE uses (e.g., "10th"). For
+editions over the tenth, it is best to use the "Arabic ordinal" form for
+IEEE related work (e.g., "101st")
+Note how "Jr." has to be entered.
+From the May 2002 issue of "Journal of Lightwave Technology", page 856,
+reference #17.
+@book{IEEEexample:book,
+  author        = "S. M. Metev and V. P. Veiko",
+  editor        = "Osgood, Jr., R. M.",
+  title         = "Laser Assisted Microtechnology",
+  edition       = "Second",
+  publisher     = "Springer-Verlag",
+  address       = "Berlin, Germany",
+  year          = "1998"
+}
+
+
+book with series and volume
+From the January 2000 issue of "IEEE Transactions on Communications",
+page 11, reference #31.
+@book{IEEEexample:bookwithseriesvolume,
+  editor        = "J. Breckling",
+  title         = "The Analysis of Directional Time Series: Applications to
+                   Wind Speed and Direction",
+  series        = "Lecture Notes in Statistics",
+  publisher     = "Springer",
+  address       = "Berlin, Germany",
+  year          = "1989",
+  volume        = "61"
+}
+
+
+inbook with chapter number. The pages field could also have been given.
+The chapter number could be changed to something else such as a section
+number via the type field: type = "sec.".
+From the May 2002 issue of "IEEE Transactions on Circuits and Systems---I: 
+Fundamental Applications and Theory", page 638, reference #22.
+@inbook{IEEEexample:inbook,
+  author        = "H. E. Rose",
+  title         = "A Course in Number Theory",
+  publisher     = "Oxford Univ. Press",
+  address       = "New York, NY",
+  year          = "1988",
+  chapter       = "3"
+}
+
+
+inbook with pages and note. The language field is not set to Russian
+because the title is presented here in its translated, English, form.
+From the May 2002 issue of "IEEE Transactions on Magnetics", page 1533,
+reference #5.
+@inbook{IEEEexample:inbookpagesnote,
+  author        = "B. K. Bul",
+  title         = "Theory Principles and Design of Magnetic Circuits",
+  publisher     = "Energia Press",
+  address       = "Moscow",
+  year          = "1964",
+  pages         = "464",
+  note          = "(in Russian)"
+}
+
+
+
+
+
+incollection with author and editor
+From the May 2002 issue of "Journal of Lightwave Technology",
+page 807, reference #7.
+@incollection{IEEEexample:incollection,
+  author        = "W. V. Sorin",
+  editor        = "D. Derickson",
+  title         = "Optical Reflectometry for Component Characterization",
+  booktitle     = "Fiber Optic Test and Measurement",
+  publisher     = "Prentice-Hall",
+  address       = "Englewood Cliffs, NJ",
+  year          = "1998"
+}
+
+
+incollection with series
+From the April 2000 issue of "IEEE Transactions on Communication",
+page 609, reference #3.
+@incollection{IEEEexample:incollectionwithseries,
+  author        = "J. B. Anderson and K. Tepe",
+  title         = "Properties of the Tailbiting {BCJR} Decoder",
+  booktitle     = "Codes, Systems and Graphical Models",
+  series        = "{IMA} Volumes in Mathematics and Its Applications",
+  publisher     = "Springer-Verlag",
+  address       = "New York",
+  year          = "2000"
+  
+}
+
+
+incollection with author, editor, chapter and pages
+From the January 2000 issue of "IEEE Transactions on Communications",
+page 16, reference #9.
+@incollection{IEEEexample:incollection_chpp,
+  author        = "P. Hedelin and P. Knagenhjelm and M. Skoglund",
+  editor        = "W. B. Kleijn and K. K. Paliwal",
+  title         = "Theory for Transmission of Vector Quantization Data",
+  booktitle     = "Speech Coding and Synthesis",
+  publisher     = "Elsevier Science",
+  address       = "Amsterdam, The Netherlands",
+  year          = "1995",
+  chapter       = "10",
+  pages         = "347-396"
+}
+
+
+incollection with a large number of authors, some authors/journals will
+use et al. for so many names. IEEEtran.bst can be configured to do this
+if desired, or "R. M. A. Dawson and others" can be used instead.
+Note that IEEE may not include the publisher for incollection entries -
+IEEEtran.bst will not issue a warning if the publisher is missing for
+incollections - but other .bst files often will.
+From the June 2002 issue of "IEEE Transactions on Electron Devices",
+page 996, reference #12.
+@incollection{IEEEexample:incollectionmanyauthors,
+  author        = "R. M. A. Dawson and Z. Shen and D. A. Furst and
+                   S. Connor and J. Hsu and M. G. Kane and R. G. Stewart and
+                   A. Ipri and C. N. King and P. J. Green and R. T. Flegal
+                   and S. Pearson and W. A. Barrow and E. Dickey and K. Ping
+                   and C. W. Tang and S. Van. Slyke and
+                   F. Chen and J. Shi and J. C. Sturm and M. H. Lu",
+  title         = "Design of an Improved Pixel for a Polysilicon 
+                   Active-Matrix Organic {LED} Display",
+  booktitle     = "{SID} Tech. Dig.",
+  volume        = "29",
+  year          = "1998",
+  pages         = "11-14"
+}
+
+
+
+
+
+A Motorola data book as a manual
+It is somewhat unusual to include the data book part number.
+in the title. It might be more correct to put this information
+in the howpublished field instead.
+From the December 2000 issue of "IEEE Transactions on Communications",
+page 1986, reference #10.
+@manual{IEEEexample:motmanual,
+  title         = "{FLEXChip} Signal Processor ({MC68175/D})",
+  organization  = "Motorola",
+  year          = "1996"
+}
+
+
+same reference, but using IEEEtran's howpublished extension
+@manual{IEEEexample:motmanualhowpub,
+  title         = "{FLEXChip} Signal Processor",
+  howpublished  = "{MC68175/D}",
+  organization  = "Motorola",
+  year          = "1996"
+}
+
+
+
+
+conference paper with an address and days. Some journals capitalize the
+letters in "Globecom", this one did not.
+From the May 2002 issue of "IEEE Transactions on Communications",
+page 697, reference #12.
+@inproceedings{IEEEexample:confwithadddays,
+  author        = "M. S. Yee and L. Hanzo",
+  title         = "Radial Basis Function Decision Feedback Equaliser
+                   Assisted Burst-by-burst Adaptive Modulation",
+  booktitle     = "Proc. {IEEE} Globecom '99",
+  address       = "Rio de Janeiro, Brazil",
+  month         = dec # " 5--9,",
+  year          = "1999",
+  pages         = "2183-2187"
+}
+
+
+conference paper with volume number. A conference proceedings with a vol
+number is a little uncommon, note that the vol number is placed
+before the address in the formatted bibliography entry
+From the April 2002 issue of "IEEE/ACM Transactions on Networking",
+page 181, reference #26.
+@inproceedings{IEEEexample:confwithvolume,
+  author        = "M. Yajnik and S. B. Moon and J. Kurose and D. Towsley",
+  title         = "Measurement and Modeling of the Temporal Dependence in
+                   Packet Loss",
+  booktitle     = "Proc. {IEEE} {INFOCOM}'99",
+  volume        = "1",
+  address       = "New York, NY",
+  month         = mar,
+  year          = "1999",
+  pages         = "345-352"
+}
+
+
+conference paper with a paper number, the type field can be used to
+override the word "paper", e.g., type = "postdeadline paper". A type
+can be given even without a paper  field.
+Also, IEEEtran.bst can be configured to ignore paper numbers and types.
+From the May 2002 issue of "Journal of Lightwave Technology",
+page 807, reference #4.
+@inproceedings{IEEEexample:confwithpaper,
+  author        = "M. Wegmuller and J. P. von der Weid and P. Oberson
+                   and N. Gisin",
+  title         = "High Resolution Fiber Distributed Measurements With
+                   Coherent {OFDR}",
+  booktitle     = "Proc. {ECOC}'00",
+  year          = "2000",
+  paper         = "11.3.4",
+  pages         = "109"
+}
+
+
+conference paper with a postdeadline type paper, the paper field is
+optional.
+From the August 2000 issue of "IEEE Photonics Technology Letters",
+page 1087, reference #12.
+@inproceedings{IEEEexample:confwithpapertype,
+  author        = "B. Mikkelsen and G. Raybon and R.-J. Essiambre and
+                   K. Dreyer and Y. Su. and L. E. Nelson and J. E. Johnson
+                   and G. Shtengel and A. Bond and D. G. Moodie and
+                   A. D. Ellis",
+  title         = "160 {Gbit/s} Single-channel Transmission Over 300 km 
+                   Nonzero-dispersion Fiber With Semiconductor Based
+                   Transmitter and Demultiplexer",
+  booktitle     = "Proc. {ECOC}'99",
+  year          = "1999",
+  paper         = "2-3",
+  type          = "postdeadline paper",
+  pages         = "28-29"
+}
+
+
+presented at a conference
+intype overrides the default "in" and causes the booktitle not to be
+emphasized (rendered in italics).
+From the February 2002 issue of "IEEE/ACM Transactions on Networking",
+page 163, reference #6.
+@inproceedings{IEEEexample:presentedatconf,
+  author        = "S. G. Finn and M. M{\'e}dard and R. A. Barry",
+  title         = "A Novel Approach to Automatic Protection Switching
+                   Using Trees",
+  intype        = "presented at the",
+  booktitle     = "Proc. Int. Conf. Commun.",
+  year          = "1997"
+}
+
+
+
+
+
+master's thesis, often the University name will be abbreviated and the
+state or country will be included in the address. The type field can
+used to override the default type "Master's thesis"
+From the June 2002 issue of "IEEE Transactions on Microelectromechanical
+Systems", page 186, reference #11.
+@mastersthesis{IEEEexample:masters,
+  author        = "Nin C. Loh",
+  title         = "High-Resolution Micromachined Interferometric
+                   Accelerometer",
+  school        = "Massachusetts Institute of Technology",
+  address       = "Cambridge",
+  year          = "1992"
+}
+
+
+master's thesis with a type field
+From the August 2001 issue of "IEEE/ACM Transactions on Networking",
+page 391, reference #12.
+@mastersthesis{IEEEexample:masterstype,
+  author        = "A. Karnik",
+  title         = "Performance of {TCP} Congestion Control with Rate
+                   Feedback: {TCP/ABR} and Rate Adaptive {TCP/IP}",
+  school        = "Indian Institute of Science",
+  type          = "M. Eng. thesis",
+  address       = "Bangalore, India",
+  month         = jan,
+  year          = "1999"
+}
+
+
+
+
+
+Ph.D. dissertation with a URL field, the university is abbreviated
+From the October 2001 issue of "IEEE/ACM Transactions on Networking",
+page 590, reference #11.
+@phdthesis{IEEEexample:phdurl,
+  author        = "Q. Li",
+  title         = "Delay Characterization and Performance Control of
+                   Wide-area Networks",
+  school        = "Univ. of Delaware",
+  address       = "Newark",
+  month         = may,
+  year          = "2000",
+  url           = "http://www.ece.udel.edu/~qli"
+}
+
+
+
+
+
+technical report
+From the August 2001 issue of "IEEE/ACM Transactions on Networking",
+page 490, reference #15.
+@techreport{IEEEexample:techrep,
+  author        = "R. Jain and K. K. Ramakrishnan and D. M. Chiu",
+  title         = "Congestion Avoidance in Computer Networks with a 
+                   Connectionless Network Layer",
+  institution   = "Digital Equipment Corporation",
+  address       = "MA",
+  number        = "DEC-TR-506",
+  month         = aug,
+  year          = "1987"
+}
+
+
+technical report with type
+for those times when "Tech. Rep." needs to be modified
+From the February 2001 issue of "IEEE/ACM Transactions on Networking",
+page 46, reference #8.
+@techreport{IEEEexample:techreptype,
+  author        = "J. Padhye and V. Firoiu and D. Towsley",
+  title         = "A Stochastic Model of {TCP} {R}eno Congestion Avoidance
+                   and Control",
+  institution   = "Univ. of Massachusetts",
+  address       = "Amherst, MA",
+  type          = "CMPSCI Tech. Rep.",
+  number        = "99-02",
+  year          = "1999"
+}
+
+
+technical report with type
+for those times when "Tech. Rep." needs to be modified
+This reference did not have an address.
+From the January 2000 issue of "IEEE Transactions on Communications",
+page 117, reference #6.
+@techreport{IEEEexample:techreptypeii,
+  author        = "D. Middleton and A. D. Spaulding",
+  title         = "A Tutorial Review of Elements of Weak Signal Detection
+                   in Non-{G}aussian {EMI} Environments",
+  institution   = "National Telecommunications and Information
+                   Administration ({NTIA}), U.S. Dept. of Commerce",
+  type          = "NTIA Report",
+  number        = "86-194",
+  month         = may,
+  year          = "1986"
+}
+
+
+
+
+
+an unpublished work
+for unpublished types, the note field is required. IEEE usually
+just uses the word "unpublished" for the note.
+From the August 2001 issue of "IEEE/ACM Transactions on Networking",
+page 391, reference #16.
+@unpublished{IEEEexample:unpublished,
+  author        = "T. J. Ott and N. Aggarwal",
+  title         = "{TCP} over {ATM}: {ABR} or {UBR}",
+  note          = "Unpublished"
+}
+
+
+
+
+
+electronic with a howpublished information field 
+From the August 2001 issue of "IEEE/ACM Transactions on Networking",
+page 391, reference #7.
+@electronic{IEEEexample:electronhowinfo,
+  author        = "V. Jacobson",
+  title         = "Modified {TCP} Congestion Avoidance Algorithm",
+  howpublished  = "end2end-interest mailing list",
+  url           = "ftp://ftp.isi.edu/end2end/end2end-interest-1990.mail",
+  month         = apr,
+  year          = "1990"
+}
+
+
+electronic with a howpublished information field 
+From the August 2001 issue of "IEEE/ACM Transactions on Networking",
+page 418, reference #31.
+@electronic{IEEEexample:electronhowinfo2,
+  author        = "V. Valloppillil and K. W. Ross",
+  title         = "Cache Array Routing Protocol v1.1",
+  howpublished  = "Internet draft",
+  url           = "http://ds1.internic.net/internet-drafts/draft-vinod-carp-v1-03.txt",
+  year          = "1998"
+}
+
+
+electronic with an organization and address
+From the February 2002 issue of "IEEE/ACM Transactions on Networking",
+page 114, reference #15.
+@electronic{IEEEexample:electronorgadd,
+  author        = "D. H. Lorenz and A. Orda",
+  title         = "Optimal Partition of {QoS} Requirements on Unicast
+                   Paths and Multicast Trees",
+  organization  = "Dept. Elect. Eng., Technion",
+  address       = "Haifa, Israel",
+  url           = "ftp://ftp.technion.ac.il/pub/supported/ee/Network/lor.mopq98.ps",
+  month         = jul,
+  year          = "1998"
+}
+
+
+
+
+
+U.S. patent
+Use the type field to override the patent type. e.g.,
+type = "Patent Application"
+The address is that of the assignee. Note that IEEE does not
+display the assignee, the address, and only displays one date.
+(if year is not present, the filed dates are used.) However, this
+information should be entered as other BibTeX styles may use it.
+alternatively, nationality could be entered as "U.S." 
+From the April 2000 issue of "IEEE Transactions on Communications",
+page 542, reference #6.
+@patent{IEEEexample:uspat,
+  author        = "Ronald E. Sorace and Victor S. Reinhardt and
+                   Steven A. Vaughn",
+  assignee      = "Hughes Aircraft Company",
+  address       = "Los Angeles, CA",
+  title         = "High-Speed Digital-to-{RF} Converter",
+  nationality   = "United States",
+  number        = "5668842",
+  dayfiled      = "28",
+  monthfiled    = feb,
+  yearfiled     = "1995",
+  day           = "16",
+  month         = sep,
+  year          = "1997"
+}
+
+
+Japanese Patent
+From the April 2000 issue of "IEEE Transactions on Communications",
+page 556, reference #6.
+@patent{IEEEexample:jppat,
+  author        = "U. Hideki",
+  title         = "Quadrature Modulation Circuit",
+  nationality   = "Japanese",
+  number        = "152932/92",
+  day           = "20",
+  month         = may,
+  year          = "1992"
+}
+
+
+French Patent request, the language field must be entered in lower case
+as this is the option name Babel uses. The nationality field needs to be
+capitalized. Because this is a patent request, the date filed fields are
+used while the date fields are left empty/missing. In other countries,
+the words "Patent Application", etc. are used instead.
+From the April 2000 issue of "IEEE Transactions on Communications",
+page 556, reference #9.
+@patent{IEEEexample:frenchpatreq,
+  author        = "F. Kowalik and M. Isard",
+  title         = "Estimateur d'un D{\'e}faut de Fonctionnement 
+                   d'un Modulateur en Quadrature et {\'E}tage de Modulation
+                   l'Utilisant",
+  language      = "french",
+  nationality   = "French",
+  type          = "Patent Request",
+  number        = "9500261",
+  dayfiled      = "11",
+  monthfiled    = jan,
+  yearfiled     = "1995"
+}
+
+
+
+
+
+a periodical
+From the April 2001 issue of "IEEE/ACM Transactions on Networking",
+page 160, reference #1.
+sort key is needed for sorting styles
+@periodical{IEEEexample:periodical,
+  title         = IEEE_M_PCOM # ", Special Issue on Wireless {ATM}",
+  volume        = "3",
+  month         = aug,
+  year          = "1996",
+  key           = "IEEE"
+}
+
+
+
+
+
+standard, IEEE does not use the address for standards, but it is good
+to provide one for BibTeX styles that use it.
+From the August 2001 issue of "IEEE/ACM Transactions on Networking",
+page 451, reference #2.
+@standard{IEEEexample:standard,
+  title         = "Wireless {LAN} Medium Access Control {(MAC)} and 
+                   Physical Layer {(PHY)} Specification",
+  organization  = "IEEE",
+  address       = "Piscataway, NJ",
+  number        = "802.11",
+  year          = "1997"
+}
+
+
+standard with type and revision, the type overrides the word standard
+(or std.). Here a standard number is not available and a revision number
+is used.
+From the August 2000 issue of "IEEE Photonics Technology Letters",
+page 1048, reference #13.
+@standard{IEEEexample:standardproposed,
+  title         = "Fiber Channel Physical Interface ({FC-PI})",
+  institution   = "NCITS",
+  address       = "Washington, DC",
+  type          = "Working Draft Proposed Standard",
+  revision      = "5.2",
+  year          = "1999"
+}
+
+
+standard draft as a misc with author
+From the May 2002 issue of "IEEE Journal of Selected Areas in
+Communication", page 725, reference #16.
+@misc{IEEEexample:draftasmisc,
+  author        = "I. Widjaja and A. Elwalid",
+  title         = "{MATE}: {MPLS} Adaptive Traffic Engineering",
+  howpublished  = "IETF Draft",
+  year          = "1999"
+}
+
+
+
+
+
+misc for a techreport like reference
+techreport is not perfectly suitable because this entry lacks
+an institution field
+From the August 2001 issue of "IEEE/ACM Transactions on Networking",
+page 490, reference #22.
+@misc{IEEEexample:miscforum,
+  author        = "L. Roberts",
+  title         = "Enhanced Proportional Rate Control Algorithm {PRCA}",
+  howpublished  = "{ATM} Forum Contribution 94-0735R1",
+  month         = aug,
+  year          = "1994"
+}
+
+
+misc for a white paper
+From the August 2001 issue of "IEEE/ACM Transactions on Networking",
+page 478, reference #4 - Note that the reference there (improperly?)
+used the author field for "Cisco".
+@misc{IEEEexample:whitepaper,
+  title         = "Advanced {QoS} Services for the Intelligent Internet",
+  howpublished  = "White Paper",
+  organization  = "Cisco",
+  month         = may,
+  year          = "1997"
+}
+
+
+misc for a data sheet
+From the November 2000 issue of "IEEE Photonics Technology Letters",
+page 1551, reference #6.
+@misc{IEEEexample:datasheet,
+  title         = "{PDCA12-70} Data Sheet",
+  organization  = "Opto Speed SA",
+  address       = "Mezzovico, Switzerland"
+}
+
+
+
+
+
+Other unusual references
+
+a private communication as a misc entry type
+sometimes the designation "personal communication" is used instead
+From the June 2002 issue of "IEEE Transactions on Information Theory",
+page 1725, reference #16.
+@misc{IEEEexample:private,
+  author        = "S. Konyagin",
+  howpublished  = "private communication",
+  year          = "1998"
+}
+
+
+an internet request for comments (RFC) as a misc entry type
+It would also be nice to add a URL to these types of things.
+RFCs can also be handled as electronic references.
+From the April 2002 issue of "IEEE/ACM Transactions on Networking",
+page 181, reference #14.
+@misc{IEEEexample:miscrfc,
+  author        = "K. K. Ramakrishnan and S. Floyd",
+  title         = "A Proposal to Add Explicit Congestion
+                   Notification ({ECN}) to {IP}",
+  howpublished  = "RFC 2481",
+  month         = jan,
+  year          = "1999"
+}
+
+
+a software package as a manual
+From the June 2002 issue of "IEEE/ASME Journal of Microelectromechanical
+Systems", page 205, reference #20.
+Sometimes they put the version/release information in the title.
+@manual{IEEEexample:softmanual,
+  title         = "SaberDesigner Reference Manual",
+  organization  = "Analogy, Inc.",
+  address       = "Beaverton, OR",
+  year          = "1998",
+  note          = "Release 4.3"
+}
+
+
+a software package as an electronic reference
+From the February 2003 issue of  "IEEE/ACM Transactions on Networking",
+page 46, reference #24. If there is no author or organization, a sorting
+key is required for sorting styles. It might be a good idea to include
+month and year fields as well.
+@electronic{IEEEexample:softonline,
+  title         = "Ucb/lbnl/vint Network Simulator---ns (Version 2)",
+  url           = "http://www-mash.cs.berkeley.edu/ns/",
+  key           = "ns"
+}
+
+
+misc for a German regulation
+In German, the first letters of nouns are capitalized, so we do so here.
+From the June 2002 issue of "IEEE Journal in Selected Areas in
+Communication", page 892, reference #9.
+@misc{IEEEexample:miscgermanreg,
+  title         = "{M}essung von {S}t{\"o}rfeldern an {A}nlagen 
+                   und {L}eitungen der {T}elekommunikation im
+                   {F}requenzbereich 9 {kHz} bis 3 {GHz}",
+  language      = "german",
+  howpublished  = "{M}e{\ss}vorschrift {R}eg {TP} {MV} 05",
+  organization  = "Regulierungsbeh{\"o}rde f{\"u}r {T}elekommunikation und
+                   {P}ost ({R}eg {TP})"
+}
+
+
+
+Ways to handle things like CCSDS's Blue Books
+journal article with a URL. However, this is not a very good approach
+because the Blue Books are not really journals and the author field has
+to be abused.
+From the June 2002 issue of "IEEE Transactions on Information Theory",
+page 1461, reference #7.
+@article{IEEEexample:bluebookarticle,
+  author        = "{Consulative Committee for Space Data Systems (CCSDS)}",
+  title         = "Telemetry Channel Coding",
+  journal       = "Blue Book",
+  number        = "4",
+  year          = "1999",
+  url           = "http://www.ccsds.org/documents/pdf/CCSDS-101.0-B-4.pdf"
+}
+
+
+CCSDS's Blue Book handled as a book
+However, it is not a good idea to have to use the author field for
+an organization (done here because the book entry type requires an
+author field).
+@book{IEEEexample:bluebookbook,
+  author        = "{Consulative Committee for Space Data Systems (CCSDS)}",
+  title         = "Telemetry Channel Coding",
+  series        = "Blue Book",
+  number        = "4",
+  publisher     = "{CCSDS}",
+  address       = "Newport Beach, {CA}",
+  year          = "1999",
+  url           = "http://www.ccsds.org/documents/pdf/CCSDS-101.0-B-4.pdf"
+}
+
+
+CCSDS's Blue Book handled as a manual
+This is a much better approach, but uses the howpublished field.
+@manual{IEEEexample:bluebookmanual,
+  title         = "Telemetry Channel Coding",
+  howpublished  = "ser. Blue Book, No. 4",
+  organization  = "Consulative Committee for Space Data Systems (CCSDS)",
+  address       = "Newport Beach, CA",
+  year          = "1999",
+  url           = "http://www.ccsds.org/documents/pdf/CCSDS-101.0-B-4.pdf"
+}
+
+
+
+CCSDS's Blue Book handled as a standard
+Probably the best approach for this particular case because the work
+is standard related. Note that IEEE does not display the address for
+standards.
+@standard{IEEEexample:bluebookstandard,
+  title         = "Telemetry Channel Coding",
+  howpublished  = "ser. Blue Book, No. 4",
+  organization  = "Consulative Committee for Space Data Systems (CCSDS)",
+  address       = "Newport Beach, CA",
+  type          = "Recommendation for Space Data System Standard",
+  number        = "101.0-B-4",
+  month         = May,
+  year          = "1999",
+  url           = "http://www.ccsds.org/documents/pdf/CCSDS-101.0-B-4.pdf"
+}
+
+
+
+
+
+
+
+
+An example of a IEEEtran control entry which can change some IEEEtran.bst
+settings. An entry like this must be cited via \bstctlcite{} command
+before the first real \cite{}. The same entry key cannot be called twice
+(just like multiple \cite{} of the same entry key place only one entry
+in the bibliography.)
+The available control fields are:
+
+CTLuse_article_number
+"no" turns off the display of the number for articles.
+"yes" enables
+
+CTLuse_paper
+"no" turns off the display of the paper and type fields in inproceedings.
+"yes" enables
+
+CTLuse_forced_etal 
+"no" turns off the forced use of "et al."
+"yes" enables
+
+CTLmax_names_forced_etal
+The maximum number of names that can be present beyond which an "et al."
+usage is forced. Be sure that CTLnames_show_etal (below)
+is not greater than this value!
+
+CTLnames_show_etal
+The number of names that will be shown with a forced "et al.".
+Must be less than or equal to CTLmax_names_forced_etal
+
+CTLuse_alt_spacing 
+"no" turns off the alternate interword spacing for entries with URLs.
+"yes" enables
+
+CTLalt_stretch_factor
+If alternate interword spacing for entries with URLs is enabled, this is
+the interword spacing stretch factor that will be used. For example, the
+default "4" here means that the interword spacing in entries with URLs can
+stretch to four times normal. Does not have to be an integer.
+
+CTLdash_repeated_names
+"no" turns off the "dashification" of repeated (i.e., identical to those
+of the previous entry) names. IEEE normally does this.
+"yes" enables
+
+CTLname_format_string
+The name format control string as explained in the BibTeX style hacking
+guide.
+IEEE style "{f.~}{vv~}{ll}{, jj}" is the default,
+
+CTLname_latex_cmd
+A LaTeX command that each name will be fed to (e.g., "\textsc").
+Leave empty if no special font is desired for the names.
+The default is empty.
+
+CTLname_url_prefix
+The prefix text used before URLs.
+The default is "[Online]. Available:" A space will be inserted after this
+text. If this space is not wanted, just use \relax at the end of the
+prefix text.
+
+
+Those fields that are not to be changed can be left out.
+@IEEEtranBSTCTL{IEEEexample:BSTcontrol,
+  CTLuse_article_number     = "yes",
+  CTLuse_paper              = "yes",
+  CTLuse_forced_etal        = "no",
+  CTLmax_names_forced_etal  = "10",
+  CTLnames_show_etal        = "1",
+  CTLuse_alt_spacing        = "yes",
+  CTLalt_stretch_factor     = "4",
+  CTLdash_repeated_names    = "yes",
+  CTLname_format_string     = "{f.~}{vv~}{ll}{, jj}",
+  CTLname_latex_cmd         = "",
+  CTLname_url_prefix        = "[Online]. Available:"
+}
+
+@inproceedings{kweun2022pokemem,
+  title={PokMem: Taming Wild Memory Consumers in Apache Spark},
+  author={Kweun, Minhyeok and Kim, Goeun and Oh, Byungsoo and Jung, Seongho and Um, Taegeon and Lee, Woo-Yeon},
+  booktitle={2022 IEEE International Parallel and Distributed Processing Symposium (IPDPS)},
+  pages={59--69},
+  year={2022},
+  organization={IEEE}
+}
+@inproceedings{rachuri2022optimizing,
+  title={Optimizing Near-Data Processing for Spark},
+  author={Rachuri, Sri Pramodh and Gantasala, Arun and Emanuel, Prajeeth and Gandhi, Anshul and Foley, Robert and Puhov, Peter and Gkountouvas, Theodoros and Lei, Hui},
+  booktitle={2022 IEEE 42nd International Conference on Distributed Computing Systems (ICDCS)},
+  pages={636--646},
+  year={2022},
+  organization={IEEE}
+}
+@inproceedings{essertel2018flare,
+  title={Flare: Optimizing Apache Spark with Native Compilation for Scale-Up Architectures and Medium-Size Data.},
+  author={Essertel, Gr{\'e}gory M and Tahboub, Ruby Y and Decker, James M and Brown, Kevin J and Olukotun, Kunle and Rompf, Tiark},
+  booktitle={OSDI},
+  pages={799--815},
+  year={2018}
+}
+@article{yu2021chukonu,
+  title={Chukonu: a fully-featured high-performance big data framework that integrates a native compute engine into Spark},
+  author={Yu, Bowen and Feng, Guanyu and Cao, Huanqi and Li, Xiaohan and Sun, Zhenbo and Wang, Haojie and Zhu, Xiaowei and Zheng, Weimin and Chen, Wenguang},
+  journal={Proceedings of the VLDB Endowment},
+  volume={15},
+  number={4},
+  pages={872--885},
+  year={2021},
+  publisher={VLDB Endowment}
+}
+@inproceedings{zhou2018doppio,
+  title={Doppio: I/o-aware performance analysis, modeling and optimization for in-memory computing framework},
+  author={Zhou, Peipei and Ruan, Zhenyuan and Fang, Zhenman and Shand, Megan and Roazen, David and Cong, Jason},
+  booktitle={2018 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)},
+  pages={22--32},
+  year={2018},
+  organization={IEEE}
+}
+@inproceedings{wang2019model,
+  title={A model driven approach towards improving the performance of apache spark applications},
+  author={Wang, Kewen and Khan, Mohammad Maifi Hasan and Nguyen, Nhan and Gokhale, Swapna},
+  booktitle={2019 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)},
+  pages={233--242},
+  year={2019},
+  organization={IEEE}
+}
+@inproceedings{wang2019panthera,
+  title={Panthera: Holistic memory management for big data processing over hybrid memories},
+  author={Wang, Chenxi and Cui, Huimin and Cao, Ting and Zigman, John and Volos, Haris and Mutlu, Onur and Lv, Fang and Feng, Xiaobing and Xu, Guoqing Harry},
+  booktitle={Proceedings of the 40th ACM SIGPLAN Conference on Programming Language Design and Implementation},
+  pages={347--362},
+  year={2019}
+}
+@inproceedings{xu2020dag,
+  title={Dag-aware joint task scheduling and cache management in spark clusters},
+  author={Xu, Yinggen and Liu, Liu and Ding, Zhijun},
+  booktitle={2020 IEEE International Parallel and Distributed Processing Symposium (IPDPS)},
+  pages={378--387},
+  year={2020},
+  organization={IEEE}
+}
+@article{kim2017sparkle,
+  title={Sparkle: Optimizing spark for large memory machines and analytics},
+  author={Kim, Mijung and Li, Jun and Volos, Haris and Marwah, Manish and Ulanov, Alexander and Keeton, Kimberly and Tucek, Joseph and Cherkasova, Lucy and Xu, Le and Fernando, Pradeep},
+  journal={arXiv preprint arXiv:1708.05746},
+  year={2017}
+}
+@inproceedings{gog2015broom,
+  title={Broom: Sweeping out garbage collection from big data systems},
+  author={Gog, Ionel and Giceva, Jana and Schwarzkopf, Malte and Vaswani, Kapil and Vytiniotis, Dimitrios and Ramalingam, Ganesan and Costa, Manuel and Murray, Derek G and Hand, Steven and Isard, Michael},
+  booktitle={15th Workshop on Hot Topics in Operating Systems (HotOS $\{$XV$\}$)},
+  year={2015}
+}
+@article{nguyen2015facade,
+  title={Facade: A compiler and runtime for (almost) object-bounded big data applications},
+  author={Nguyen, Khanh and Wang, Kai and Bu, Yingyi and Fang, Lu and Hu, Jianfei and Xu, Guoqing},
+  journal={ACM SIGARCH Computer Architecture News},
+  volume={43},
+  number={1},
+  pages={675--690},
+  year={2015},
+  publisher={ACM New York, NY, USA}
+}
+@inproceedings{kyrola2012graphchi,
+  title={Graphchi: Large-scale graph computation on just a $\{$PC$\}$},
+  author={Kyrola, Aapo and Blelloch, Guy and Guestrin, Carlos},
+  booktitle={Presented as part of the 10th $\{$USENIX$\}$ Symposium on Operating Systems Design and Implementation ($\{$OSDI$\}$ 12)},
+  pages={31--46},
+  year={2012}
+}
+@inproceedings{borkar2011hyracks,
+  title={Hyracks: A flexible and extensible foundation for data-intensive computing},
+  author={Borkar, Vinayak and Carey, Michael and Grover, Raman and Onose, Nicola and Vernica, Rares},
+  booktitle={2011 IEEE 27th International Conference on Data Engineering},
+  pages={1151--1162},
+  year={2011},
+  organization={IEEE}
+}
+@article{lu2016lifetime,
+  title={Lifetime-based memory management for distributed data processing systems},
+  author={Lu, Lu and Shi, Xuanhua and Zhou, Yongluan and Zhang, Xiong and Jin, Hai and Pei, Cheng and He, Ligang and Geng, Yuanzhen},
+  journal={arXiv preprint arXiv:1602.01959},
+  year={2016}
+}
+@inproceedings{graphene,
+author = {Grandl, Robert and Kandula, Srikanth and Rao, Sriram and Akella, Aditya and Kulkarni, Janardhan},
+title = {Graphene: Packing and Dependency-Aware Scheduling for Data-Parallel Clusters},
+year = {2016},
+isbn = {9781931971331},
+publisher = {USENIX Association},
+address = {USA},
+abstract = {We present a newcluster scheduler, GRAPHENE, aimed at jobs that have a complex dependency structure and heterogeneous resource demands. Relaxing either of these challenges, i.e., scheduling a DAG of homogeneous tasks or an independent set of heterogeneous tasks, leads to NP-hard problems. Reasonable heuristics exist for these simpler problems, but they perform poorly when scheduling heterogeneous DAGs. Our key insights are: (1) focus on the long-running tasks and those with tough-to-pack resource demands, (2) compute a DAG schedule, offline, by first scheduling such troublesome tasks and then scheduling the remaining tasks without violating dependencies. These offline schedules are distilled to a simple precedence order and are enforced by an online component that scales to many jobs. The online component also uses heuristics to compactly pack tasks and to trade-off fairness for faster job completion. Evaluation on a 200-server cluster and using traces of production DAGs at Microsoft, shows that GRAPHENE improves median job completion time by 25\% and cluster throughput by 30\%.},
+booktitle = {Proceedings of the 12th USENIX Conference on Operating Systems Design and Implementation},
+pages = {81–97},
+numpages = {17},
+location = {Savannah, GA, USA},
+series = {OSDI'16}
+}
+@inproceedings{xu2016memtune,
+  title={Memtune: Dynamic memory management for in-memory data analytic platforms},
+  author={Xu, Luna and Li, Min and Zhang, Li and Butt, Ali R and Wang, Yandong and Hu, Zane Zhenhua},
+  booktitle={2016 IEEE international parallel and distributed processing symposium (IPDPS)},
+  pages={383--392},
+  year={2016},
+  organization={IEEE}
+}
+@article{li2022intermediate,
+  title={Intermediate data placement and cache replacement strategy under Spark platform},
+  author={Li, Chunlin and Zhang, Yong and Luo, Youlong},
+  journal={Journal of Parallel and Distributed Computing},
+  volume={163},
+  pages={114--135},
+  year={2022},
+  publisher={Elsevier}
+}
+@article{schiavio2020dynamic,
+  title={Dynamic speculative optimizations for SQL compilation in Apache Spark},
+  author={Schiavio, Filippo and Bonetta, Daniele and Binder, Walter},
+  journal={Proceedings of the VLDB Endowment},
+  volume={13},
+  pages={754--767},
+  year={2020}
+}
+@inproceedings{navasca2019gerenuk,
+  title={Gerenuk: thin computation over big native data using speculative program transformation},
+  author={Navasca, Christian and Cai, Cheng and Nguyen, Khanh and Demsky, Brian and Lu, Shan and Kim, Miryung and Xu, Guoqing Harry},
+  booktitle={Proceedings of the 27th ACM Symposium on Operating Systems Principles},
+  pages={538--553},
+  year={2019}
+}
+
+@article{basu2013efficient,
+  title={Efficient virtual memory for big memory servers},
+  author={Basu, Arkaprava and Gandhi, Jayneel and Chang, Jichuan and Hill, Mark D and Swift, Michael M},
+  journal={ACM SIGARCH Computer Architecture News},
+  volume={41},
+  number={3},
+  pages={237--248},
+  year={2013},
+  publisher={ACM New York, NY, USA}
+}
+@inproceedings{gandhi2014efficient,
+  title={Efficient memory virtualization: Reducing dimensionality of nested page walks},
+  author={Gandhi, Jayneel and Basu, Arkaprava and Hill, Mark D and Swift, Michael M},
+  booktitle={2014 47th Annual IEEE/ACM International Symposium on Microarchitecture},
+  pages={178--189},
+  year={2014},
+  organization={IEEE}
+}
+@article{dean2008mapreduce,
+  title={MapReduce: simplified data processing on large clusters},
+  author={Dean, Jeffrey and Ghemawat, Sanjay},
+  journal={Communications of the ACM},
+  volume={51},
+  number={1},
+  pages={107--113},
+  year={2008},
+  publisher={ACM New York, NY, USA}
+}
+@article{zaharia2010spark,
+  title={Spark: Cluster computing with working sets.},
+  author={Zaharia, Matei and Chowdhury, Mosharaf and Franklin, Michael J and Shenker, Scott and Stoica, Ion and others},
+  journal={HotCloud},
+  volume={10},
+  number={10-10},
+  pages={95},
+  year={2010}
+}
+@inproceedings{huang2010hibench,
+  title={The HiBench benchmark suite: Characterization of the MapReduce-based data analysis},
+  author={Huang, Shengsheng and Huang, Jie and Dai, Jinquan and Xie, Tao and Huang, Bo},
+  booktitle={2010 IEEE 26th International conference on data engineering workshops (ICDEW 2010)},
+  pages={41--51},
+  year={2010},
+  organization={IEEE}
+}
+@article{meng2016mllib,
+  title={Mllib: Machine learning in apache spark},
+  author={Meng, Xiangrui and Bradley, Joseph and Yavuz, Burak and Sparks, Evan and Venkataraman, Shivaram and Liu, Davies and Freeman, Jeremy and Tsai, DB and Amde, Manish and Owen, Sean and others},
+  journal={The Journal of Machine Learning Research},
+  volume={17},
+  number={1},
+  pages={1235--1241},
+  year={2016},
+  publisher={JMLR. org}
+}
+@inproceedings{zaharia2013discretized,
+  title={Discretized streams: Fault-tolerant streaming computation at scale},
+  author={Zaharia, Matei and Das, Tathagata and Li, Haoyuan and Hunter, Timothy and Shenker, Scott and Stoica, Ion},
+  booktitle={Proceedings of the twenty-fourth ACM symposium on operating systems principles},
+  pages={423--438},
+  year={2013}
+}
+@inproceedings{armbrust2018structured,
+  title={Structured streaming: A declarative api for real-time applications in apache spark},
+  author={Armbrust, Michael and Das, Tathagata and Torres, Joseph and Yavuz, Burak and Zhu, Shixiong and Xin, Reynold and Ghodsi, Ali and Stoica, Ion and Zaharia, Matei},
+  booktitle={Proceedings of the 2018 International Conference on Management of Data},
+  pages={601--613},
+  year={2018}
+}
+@inproceedings{gonzalez2014graphx,
+  title={Graphx: Graph processing in a distributed dataflow framework},
+  author={Gonzalez, Joseph E and Xin, Reynold S and Dave, Ankur and Crankshaw, Daniel and Franklin, Michael J and Stoica, Ion},
+  booktitle={11th $\{$USENIX$\}$ Symposium on Operating Systems Design and Implementation ($\{$OSDI$\}$ 14)},
+  pages={599--613},
+  year={2014}
+}
+@inproceedings{zaharia2012resilient,
+  title={Resilient distributed datasets: A fault-tolerant abstraction for in-memory cluster computing},
+  author={Zaharia, Matei and Chowdhury, Mosharaf and Das, Tathagata and Dave, Ankur and Ma, Justin and McCauly, Murphy and Franklin, Michael J and Shenker, Scott and Stoica, Ion},
+  booktitle={Presented as part of the 9th $\{$USENIX$\}$ Symposium on Networked Systems Design and Implementation ($\{$NSDI$\}$ 12)},
+  pages={15--28},
+  year={2012}
+}
+@inproceedings{armbrust2015spark,
+  title={Spark sql: Relational data processing in spark},
+  author={Armbrust, Michael and Xin, Reynold S and Lian, Cheng and Huai, Yin and Liu, Davies and Bradley, Joseph K and Meng, Xiangrui and Kaftan, Tomer and Franklin, Michael J and Ghodsi, Ali and others},
+  booktitle={Proceedings of the 2015 ACM SIGMOD international conference on management of data},
+  pages={1383--1394},
+  year={2015}
+}
+@inproceedings{lion2016don,
+  title={Don’t get caught in the cold, warm-up your $\{$JVM$\}$: Understand and eliminate $\{$JVM$\}$ warm-up overhead in data-parallel systems},
+  author={Lion, David and Chiu, Adrian and Sun, Hailong and Zhuang, Xin and Grcevski, Nikola and Yuan, Ding},
+  booktitle={12th $\{$USENIX$\}$ Symposium on Operating Systems Design and Implementation ($\{$OSDI$\}$ 16)},
+  pages={383--400},
+  year={2016}
+}
+@inproceedings{nguyen2016yak,
+  title={Yak: A high-performance big-data-friendly garbage collector},
+  author={Nguyen, Khanh and Fang, Lu and Xu, Guoqing and Demsky, Brian and Lu, Shan and Alamian, Sanazsadat and Mutlu, Onur},
+  booktitle={12th $\{$USENIX$\}$ Symposium on Operating Systems Design and Implementation ($\{$OSDI$\}$ 16)},
+  pages={349--365},
+  year={2016}
+}
+
+@inproceedings{kwon2016coordinated,
+  title={Coordinated and efficient huge page management with ingens},
+  author={Kwon, Youngjin and Yu, Hangchen and Peter, Simon and Rossbach, Christopher J and Witchel, Emmett},
+  booktitle={12th $\{$USENIX$\}$ Symposium on Operating Systems Design and Implementation ($\{$OSDI$\}$ 16)},
+  pages={705--721},
+  year={2016}
+}
+
+@inproceedings{panwar2018making,
+  title={Making huge pages actually useful},
+  author={Panwar, Ashish and Prasad, Aravinda and Gopinath, K},
+  booktitle={Proceedings of the Twenty-Third International Conference on Architectural Support for Programming Languages and Operating Systems},
+  pages={679--692},
+  year={2018}
+}
+
+
+@inproceedings{zhang2018riffle,
+  title={Riffle: Optimized shuffle service for large-scale data analytics},
+  author={Zhang, Haoyu and Cho, Brian and Seyfe, Ergin and Ching, Avery and Freedman, Michael J},
+  booktitle={Proceedings of the Thirteenth EuroSys Conference},
+  pages={1--15},
+  year={2018}
+}
+@inproceedings{yu2017lrc,
+  title={LRC: Dependency-aware cache management for data analytics clusters},
+  author={Yu, Yinghao and Wang, Wei and Zhang, Jun and Letaief, Khaled Ben},
+  booktitle={IEEE INFOCOM 2017-IEEE Conference on Computer Communications},
+  pages={1--9},
+  year={2017},
+  organization={IEEE}
+}
+
+@article{maas2016taurus,
+  title={Taurus: A holistic language runtime system for coordinating distributed managed-language applications},
+  author={Maas, Martin and Asanovi{\'c}, Krste and Harris, Tim and Kubiatowicz, John},
+  journal={Acm SIGPLAN Notices},
+  volume={51},
+  number={4},
+  pages={457--471},
+  year={2016},
+  publisher={ACM New York, NY, USA}
+}
+@article{nguyen2018skyway,
+  title={Skyway: Connecting managed heaps in distributed big data systems},
+  author={Nguyen, Khanh and Fang, Lu and Navasca, Christian and Xu, Guoqing and Demsky, Brian and Lu, Shan},
+  journal={ACM SIGPLAN Notices},
+  volume={53},
+  number={2},
+  pages={56--69},
+  year={2018},
+  publisher={ACM New York, NY, USA}
+}
+@inproceedings{Ferdman2012ClearingTC,
+  title={Clearing the clouds: a study of emerging scale-out workloads on modern hardware},
+  author={Michael Ferdman and Almutaz Adileh and Yusuf Onur Koçberber and Stavros Volos and Mohammad Alisafaee and Djordje Jevdjic and Cansu Kaynak and Adrian Daniel Popescu and Anastasia Ailamaki and Babak Falsafi},
+  booktitle={ASPLOS XVII},
+  year={2012}
+}
+@INPROCEEDINGS{ieee2015Xu,
+  author={Xu, Lijie and Dou, Wensheng and Zhu, Feng and Gao, Chushu and Liu, Jie and Zhong, Hua and Wei, Jun},
+  booktitle={2015 IEEE 26th International Symposium on Software Reliability Engineering (ISSRE)}, 
+  title={Experience report: A characteristic study on out of memory errors in distributed data-parallel applications}, 
+  year={2015},
+  volume={},
+  number={},
+  pages={518-529}
+  }
+@inproceedings{katsifodimos2016apache,
+  title={Apache flink: Stream analytics at scale},
+  author={Katsifodimos, Asterios and Schelter, Sebastian},
+  booktitle={2016 IEEE international conference on cloud engineering workshop (IC2EW)},
+  pages={193--193},
+  year={2016},
+  organization={IEEE}
+}
+@inproceedings{shvachko2010hadoop,
+  title={The hadoop distributed file system},
+  author={Shvachko, Konstantin and Kuang, Hairong and Radia, Sanjay and Chansler, Robert},
+  booktitle={2010 IEEE 26th symposium on mass storage systems and technologies (MSST)},
+  pages={1--10},
+  year={2010},
+  organization={Ieee}
+}
+@inproceedings{hindman2011mesos,
+  title={Mesos: A platform for fine-grained resource sharing in the data center.},
+  author={Hindman, Benjamin and Konwinski, Andy and Zaharia, Matei and Ghodsi, Ali and Joseph, Anthony D and Katz, Randy H and Shenker, Scott and Stoica, Ion},
+  booktitle={NSDI},
+  volume={11},
+  number={2011},
+  pages={22--22},
+  year={2011}
+}
+@article{oussous2018big,
+  title={Big Data technologies: A survey},
+  author={Oussous, Ahmed and Benjelloun, Fatima-Zahra and Lahcen, Ayoub Ait and Belfkih, Samir},
+  journal={Journal of King Saud University-Computer and Information Sciences},
+  volume={30},
+  number={4},
+  pages={431--448},
+  year={2018},
+  publisher={Elsevier}
+}
+@inproceedings{nsdi2015Ousterhout,
+author = {Ousterhout, Kay and Rasti, Ryan and Ratnasamy, Sylvia and Shenker, Scott and Chun, Byung-Gon},
+title = {Making Sense of Performance in Data Analytics Frameworks},
+year = {2015},
+isbn = {9781931971218},
+publisher = {USENIX Association},
+address = {USA},
+abstract = {There has been much research devoted to improving the performance of data analytics frameworks, but comparatively little effort has been spent systematically identifying the performance bottlenecks of these systems. In this paper, we develop blocked time analysis, a methodology for quantifying performance bottlenecks in distributed computation frameworks, and use it to analyze the Spark framework's performance on two SQL benchmarks and a production workload. Contrary to our expectations, we find that (i) CPU (and not I/O) is often the bottleneck, (ii) improving network performance can improve job completion time by a median of at most 2\%, and (iii) the causes of most stragglers can be identified.},
+booktitle = {Proceedings of the 12th USENIX Conference on Networked Systems Design and Implementation},
+pages = {293–307},
+numpages = {15},
+location = {Oakland, CA},
+series = {NSDI'15}
+}
+@article{zaharia2016apache,
+  title={Apache spark: a unified engine for big data processing},
+  author={Zaharia, Matei and Xin, Reynold S and Wendell, Patrick and Das, Tathagata and Armbrust, Michael and Dave, Ankur and Meng, Xiangrui and Rosen, Josh and Venkataraman, Shivaram and Franklin, Michael J and others},
+  journal={Communications of the ACM},
+  volume={59},
+  number={11},
+  pages={56--65},
+  year={2016},
+  publisher={ACM New York, NY, USA}
+}
+
+@inproceedings{vavilapalli2013apache,
+  title={Apache hadoop yarn: Yet another resource negotiator},
+  author={Vavilapalli, Vinod Kumar and Murthy, Arun C and Douglas, Chris and Agarwal, Sharad and Konar, Mahadev and Evans, Robert and Graves, Thomas and Lowe, Jason and Shah, Hitesh and Seth, Siddharth and others},
+  booktitle={Proceedings of the 4th annual Symposium on Cloud Computing},
+  pages={1--16},
+  year={2013}
+}
+@inproceedings{sethi2019presto,
+  title={Presto: SQL on everything},
+  author={Sethi, Raghav and Traverso, Martin and Sundstrom, Dain and Phillips, David and Xie, Wenlei and Sun, Yutian and Yegitbasi, Nezih and Jin, Haozhun and Hwang, Eric and Shingte, Nileema and others},
+  booktitle={2019 IEEE 35th International Conference on Data Engineering (ICDE)},
+  pages={1802--1813},
+  year={2019},
+  organization={IEEE}
+}
+
+@online{amazon-ec2-high-memory,
+  title = {Amazon EC2 High Memory Instance},
+  url={https://aws.amazon.com/jp/ec2/instance-types/high-memory/},
+  urldate={2023-1-30},
+  note = {(visited on 2023-1-30)}
+}
+@online{document-thp,
+  title = {Transparent Hugepage Support},
+  url={https://www.kernel.org/doc/Documentation/vm/transhuge.txt},
+  urldate={2023-1-30},
+  note = {(visited on 2023-1-30)}
+}
+@online{document-hugetlbpage,
+  title = {Hugetlbpage Support},
+  url={https://www.kernel.org/doc/Documentation/vm/hugetlbpage.txt},
+  urldate={2023-1-30},
+  note = {(visited on 2023-1-30)}
+}
+
+@online{perf,
+  title = {Perf},
+  url={https://perf.wiki.kernel.org/index.php/Main_Page},
+  urldate={2023-1-30},
+  note = {(visited on 2023-1-30)}
+}
+@online{hadoop,
+  title = {Apache Hadoop},
+  url={https://hadoop.apache.org/},
+  urldate={2023-1-30},
+  note = {(visited on 2023-1-30)}
+}
+
+@online{madvise,
+  title = {MAN Page of MADVISE},
+  url={https://linuxjm.osdn.jp/html/LDP_man-pages/man2/madvise.2.html},
+  urldate={2023-1-30},
+  note = {(visited on 2023-1-30)}
+}
+
+@online{sar,
+  title = {sar(1) linux man page},
+  url={https://linux.die.net/man/1/sar},
+  urldate={2023-1-30},
+  note = {(visited on 2023-1-30)}
+}
+@online{time-command,
+  title = {MAN Page of TIME},
+  url={https://linuxjm.osdn.jp/html/LDP_man-pages/man2/time.2.html},
+  urldate={2023-1-30},
+  note = {(visited on 2023-1-30)}
+}
+
+@inproceedings{nr,
+    title = {The Network Data Repository with Interactive Graph Analytics and Visualization},
+    author={Ryan A. Rossi and Nesreen K. Ahmed},
+    booktitle = {AAAI},
+    url={http://networkrepository.com},
+    year={2015}
+}
+@misc{Dua:2019 ,
+author = "Dua, Dheeru and Graff, Casey",
+year = "2017",
+title = "{UCI} Machine Learning Repository",
+url = "http://archive.ics.uci.edu/ml",
+institution = "University of California, Irvine, School of Information and Computer Sciences" 
+}
